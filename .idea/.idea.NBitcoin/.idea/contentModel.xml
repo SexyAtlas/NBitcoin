@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p=".nuget" t="Include">
+        <e p="NuGet.Config" t="Include" />
+        <e p="NuGet.exe" t="Include" />
+        <e p="NuGet.targets" t="Include" />
+      </e>
+      <e p="NBitcoin" t="IncludeRecursive">
+        <e p="Base58Data.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BIP158" t="Include">
+          <e p="BitStream.cs" t="Include" />
+          <e p="GolombRiceFilter.cs" t="Include" />
+        </e>
+        <e p="BIP32" t="Include">
+          <e p="BitcoinExtKey.cs" t="Include" />
+          <e p="ExtKey.cs" t="Include" />
+          <e p="ExtPubKey.cs" t="Include" />
+          <e p="KeyPath.cs" t="Include" />
+        </e>
+        <e p="BIP38" t="Include">
+          <e p="BitcoinConfirmationCode.cs" t="Include" />
+          <e p="BitcoinEncryptedSecret.cs" t="Include" />
+          <e p="BitcoinPassphraseCode.cs" t="Include" />
+        </e>
+        <e p="BIP39" t="Include">
+          <e p="IWordlistSource.cs" t="Include" />
+          <e p="KDTable.cs" t="Include" />
+          <e p="Language.cs" t="Include" />
+          <e p="Mnemonic.cs" t="Include" />
+          <e p="Wordlist.cs" t="Include" />
+        </e>
+        <e p="BIP9Deployments.cs" t="Include" />
+        <e p="Bitcoin.cs" t="Include" />
+        <e p="BitcoinAddress.cs" t="Include" />
+        <e p="BitcoinCore" t="Include">
+          <e p="BlockRepository.cs" t="Include" />
+          <e p="BlockStore.cs" t="Include" />
+          <e p="BlockUndo.cs" t="Include" />
+          <e p="BlockUndoStore.cs" t="Include" />
+          <e p="CachedBlockProvider.cs" t="Include" />
+          <e p="Coins.cs" t="Include" />
+          <e p="CoinsView.cs" t="Include" />
+          <e p="DataDirectory.cs" t="Include" />
+          <e p="IBlockProvider.cs" t="Include" />
+          <e p="IndexedBlockStore.cs" t="Include" />
+          <e p="IndexedBlockUndoStore.cs" t="Include" />
+          <e p="IndexedStore.cs" t="Include" />
+          <e p="Store.cs" t="Include" />
+          <e p="StoredBlock.cs" t="Include" />
+          <e p="StoredItem.cs" t="Include" />
+        </e>
+        <e p="BitcoinPubKeyAddress.cs" t="Include" />
+        <e p="BitcoinSecret.cs" t="Include" />
+        <e p="BitcoinSegwitAddress.cs" t="Include" />
+        <e p="BitcoinStream.cs" t="Include" />
+        <e p="BitcoinStream.Partial.cs" t="Include" />
+        <e p="BitcoinStream.Partial.tt" t="Include" />
+        <e p="BitWriter.cs" t="Include" />
+        <e p="Block.cs" t="Include" />
+        <e p="BlockLocator.cs" t="Include" />
+        <e p="BloomFilter.cs" t="Include" />
+        <e p="BouncyCastle" t="Include">
+          <e p="asn1" t="Include">
+            <e p="Asn1Encodable.cs" t="Include" />
+            <e p="Asn1EncodableVector.cs" t="Include" />
+            <e p="Asn1Exception.cs" t="Include" />
+            <e p="ASN1Generator.cs" t="Include" />
+            <e p="Asn1InputStream.cs" t="Include" />
+            <e p="Asn1Null.cs" t="Include" />
+            <e p="Asn1Object.cs" t="Include" />
+            <e p="Asn1OctetString.cs" t="Include" />
+            <e p="ASN1OctetStringParser.cs" t="Include" />
+            <e p="Asn1Sequence.cs" t="Include" />
+            <e p="ASN1SequenceParser.cs" t="Include" />
+            <e p="Asn1Tags.cs" t="Include" />
+            <e p="DefiniteLengthInputStream.cs" t="Include" />
+            <e p="DERGenerator.cs" t="Include" />
+            <e p="DerInteger.cs" t="Include" />
+            <e p="DerNull.cs" t="Include" />
+            <e p="DerObjectIdentifier.cs" t="Include" />
+            <e p="DerOctetString.cs" t="Include" />
+            <e p="DerOutputStream.cs" t="Include" />
+            <e p="DerSequence.cs" t="Include" />
+            <e p="DERSequenceGenerator.cs" t="Include" />
+            <e p="IAsn1Convertible.cs" t="Include" />
+            <e p="LimitedInputStream.cs" t="Include" />
+            <e p="sec" t="Include">
+              <e p="SECNamedCurves.cs" t="Include" />
+              <e p="SECObjectIdentifiers.cs" t="Include" />
+            </e>
+            <e p="x9" t="Include">
+              <e p="X9Curve.cs" t="Include" />
+              <e p="X9ECParameters.cs" t="Include" />
+              <e p="X9ECParametersHolder.cs" t="Include" />
+              <e p="X9ECPoint.cs" t="Include" />
+              <e p="X9FieldElement.cs" t="Include" />
+              <e p="X9FieldID.cs" t="Include" />
+              <e p="X9IntegerConverter.cs" t="Include" />
+              <e p="X9ObjectIdentifiers.cs" t="Include" />
+            </e>
+          </e>
+          <e p="crypto" t="Include">
+            <e p="AsymmetricKeyParameter.cs" t="Include" />
+            <e p="BufferedBlockCipher.cs" t="Include" />
+            <e p="BufferedCipherBase.cs" t="Include" />
+            <e p="Check.cs" t="Include" />
+            <e p="CryptoException.cs" t="Include" />
+            <e p="DataLengthException.cs" t="Include" />
+            <e p="digests" t="Include">
+              <e p="GeneralDigest.cs" t="Include" />
+              <e p="LongDigest.cs" t="Include" />
+              <e p="RipeMD160Digest.cs" t="Include" />
+              <e p="Sha1Digest.cs" t="Include" />
+              <e p="Sha224Digest.cs" t="Include" />
+              <e p="Sha256Digest.cs" t="Include" />
+              <e p="Sha384Digest.cs" t="Include" />
+              <e p="Sha512Digest.cs" t="Include" />
+            </e>
+            <e p="ec" t="Include">
+              <e p="CustomNamedCurves.cs" t="Include" />
+            </e>
+            <e p="engines" t="Include">
+              <e p="AesFastEngine.cs" t="Include" />
+            </e>
+            <e p="IAsymmetricBlockCipher.cs" t="Include" />
+            <e p="IBlockCipher.cs" t="Include" />
+            <e p="IBufferedCipher.cs" t="Include" />
+            <e p="ICipherParameters.cs" t="Include" />
+            <e p="IDigest.cs" t="Include" />
+            <e p="IDSA.cs" t="Include" />
+            <e p="IMac.cs" t="Include" />
+            <e p="InvalidCipherTextException.cs" t="Include" />
+            <e p="ISigner.cs" t="Include" />
+            <e p="macs" t="Include">
+              <e p="HMac.cs" t="Include" />
+            </e>
+            <e p="OutputLengthException.cs" t="Include" />
+            <e p="paddings" t="Include">
+              <e p="BlockCipherPadding.cs" t="Include" />
+              <e p="PaddedBufferedBlockCipher.cs" t="Include" />
+              <e p="Pkcs7Padding.cs" t="Include" />
+            </e>
+            <e p="parameters" t="Include">
+              <e p="ECDomainParameters.cs" t="Include" />
+              <e p="ECKeyParameters.cs" t="Include" />
+              <e p="ECPrivateKeyParameters.cs" t="Include" />
+              <e p="ECPublicKeyParameters.cs" t="Include" />
+              <e p="KeyParameter.cs" t="Include" />
+            </e>
+            <e p="signers" t="Include">
+              <e p="ECDsaSigner.cs" t="Include" />
+              <e p="HMacDsaKCalculator.cs" t="Include" />
+              <e p="IDsaKCalculator.cs" t="Include" />
+              <e p="RandomDsaKCalculator.cs" t="Include" />
+            </e>
+            <e p="util" t="Include">
+              <e p="Pack.cs" t="Include" />
+            </e>
+          </e>
+          <e p="math" t="Include">
+            <e p="BigInteger.cs" t="Include" />
+            <e p="ec" t="Include">
+              <e p="abc" t="Include">
+                <e p="SimpleBigDecimal.cs" t="Include" />
+                <e p="Tnaf.cs" t="Include" />
+                <e p="ZTauElement.cs" t="Include" />
+              </e>
+              <e p="custom" t="Include">
+                <e p="sec" t="Include">
+                  <e p="SecP256K1Curve.cs" t="Include" />
+                  <e p="SecP256K1Field.cs" t="Include" />
+                  <e p="SecP256K1FieldElement.cs" t="Include" />
+                  <e p="SecP256K1Point.cs" t="Include" />
+                </e>
+              </e>
+              <e p="ECAlgorithms.cs" t="Include" />
+              <e p="ECCurve.cs" t="Include" />
+              <e p="ECFieldElement.cs" t="Include" />
+              <e p="ECPoint.cs" t="Include" />
+              <e p="ECPointMap.cs" t="Include" />
+              <e p="endo" t="Include">
+                <e p="ECEndomorphism.cs" t="Include" />
+                <e p="GlvEndomorphism.cs" t="Include" />
+                <e p="GlvTypeBEndomorphism.cs" t="Include" />
+                <e p="GlvTypeBParameters.cs" t="Include" />
+              </e>
+              <e p="LongArray.cs" t="Include" />
+              <e p="multiplier" t="Include">
+                <e p="AbstractECMultiplier.cs" t="Include" />
+                <e p="DoubleAddMultiplier.cs" t="Include" />
+                <e p="ECMultiplier.cs" t="Include" />
+                <e p="FixedPointCombMultiplier.cs" t="Include" />
+                <e p="FixedPointPreCompInfo.cs" t="Include" />
+                <e p="FixedPointUtilities.cs" t="Include" />
+                <e p="GlvMultiplier.cs" t="Include" />
+                <e p="PreCompInfo.cs" t="Include" />
+                <e p="WNafL2RMultiplier.cs" t="Include" />
+                <e p="WNafPreCompInfo.cs" t="Include" />
+                <e p="WNafUtilities.cs" t="Include" />
+                <e p="WTauNafMultiplier.cs" t="Include" />
+                <e p="WTauNafPreCompInfo.cs" t="Include" />
+              </e>
+              <e p="ScaleXPointMap.cs" t="Include" />
+            </e>
+            <e p="field" t="Include">
+              <e p="FiniteFields.cs" t="Include" />
+              <e p="GenericPolynomialExtensionField.cs" t="Include" />
+              <e p="GF2Polynomial.cs" t="Include" />
+              <e p="IExtensionField.cs" t="Include" />
+              <e p="IFiniteField.cs" t="Include" />
+              <e p="IPolynomial.cs" t="Include" />
+              <e p="IPolynomialExtensionField.cs" t="Include" />
+              <e p="PrimeField.cs" t="Include" />
+            </e>
+            <e p="raw" t="Include">
+              <e p="Mod.cs" t="Include" />
+              <e p="Nat.cs" t="Include" />
+              <e p="Nat256.cs" t="Include" />
+            </e>
+          </e>
+          <e p="security" t="Include">
+            <e p="GeneralSecurityException.cs" t="Include" />
+            <e p="InvalidKeyException.cs" t="Include" />
+            <e p="KeyException.cs" t="Include" />
+            <e p="SecureRandom.cs" t="Include" />
+          </e>
+          <e p="util" t="Include">
+            <e p="Arrays.cs" t="Include" />
+            <e p="BigIntegers.cs" t="Include" />
+            <e p="encoders" t="Include">
+              <e p="Hex.cs" t="Include" />
+              <e p="HexEncoder.cs" t="Include" />
+              <e p="IEncoder.cs" t="Include" />
+            </e>
+            <e p="IMemoable.cs" t="Include" />
+            <e p="io" t="Include">
+              <e p="BaseInputStream.cs" t="Include" />
+              <e p="FilterStream.cs" t="Include" />
+              <e p="StreamOverflowException.cs" t="Include" />
+              <e p="Streams.cs" t="Include" />
+            </e>
+            <e p="Platform.cs" t="Include" />
+          </e>
+        </e>
+        <e p="BuilderExtensions" t="Include">
+          <e p="BuilderExtension.cs" t="Include" />
+          <e p="OPTrueExtension.cs" t="Include" />
+          <e p="P2MultiSigBuilderExtension.cs" t="Include" />
+          <e p="P2PKBuilderExtension.cs" t="Include" />
+          <e p="P2PKHBuilderExtension.cs" t="Include" />
+        </e>
+        <e p="CachedNoSqlRepository.cs" t="Include" />
+        <e p="CachedTransactionRepository.cs" t="Include" />
+        <e p="ChainBase.cs" t="Include" />
+        <e p="ChainedBlock.cs" t="Include" />
+        <e p="Coin.cs" t="Include" />
+        <e p="ConcurrentChain.cs" t="Include" />
+        <e p="ConsensusFactory.cs" t="Include" />
+        <e p="crypto" t="Include">
+          <e p="Cryptsharp" t="Include">
+            <e p="BitMath.cs" t="Include" />
+            <e p="BitPacking.cs" t="Include" />
+            <e p="Check.cs" t="Include" />
+            <e p="Exceptions.cs" t="Include" />
+            <e p="Pbkdf2.cs" t="Include" />
+            <e p="Salsa20Core.cs" t="Include" />
+            <e p="SCrypt.cs" t="Include" />
+            <e p="Security.cs" t="Include" />
+          </e>
+          <e p="DeterministicECDSA.cs" t="Include" />
+          <e p="ECDSABlindSignature.cs" t="Include" />
+          <e p="ECDSASignature.cs" t="Include" />
+          <e p="ECKey.cs" t="Include" />
+          <e p="Hashes.cs" t="Include" />
+          <e p="HashStream.cs" t="Include" />
+          <e p="SchnorrSignature.cs" t="Include" />
+        </e>
+        <e p="DataEncoders" t="Include">
+          <e p="ASCIIEncoder.cs" t="Include" />
+          <e p="Base58Encoder.cs" t="Include" />
+          <e p="Base64Encoder.cs" t="Include" />
+          <e p="Bech32Encoder.cs" t="Include" />
+          <e p="Encoders.cs" t="Include" />
+          <e p="HexEncoder.cs" t="Include" />
+        </e>
+        <e p="FeeRate.cs" t="Include" />
+        <e p="FileLock.cs" t="Include" />
+        <e p="IBech32Data.cs" t="Include" />
+        <e p="IBitcoinSerializable.cs" t="Include" />
+        <e p="IBitcoinString.cs" t="Include" />
+        <e p="IBlockRepository.cs" t="Include" />
+        <e p="IDestination.cs" t="Include" />
+        <e p="IHasForkId.cs" t="Include" />
+        <e p="InMemoryNoSqlRepository.cs" t="Include" />
+        <e p="IpExtensions.cs" t="Include" />
+        <e p="ISecret.cs" t="Include" />
+        <e p="ITransactionRepository.cs" t="Include" />
+        <e p="JsonConverters" t="Include">
+          <e p="AssetIdJsonConverter.cs" t="Include" />
+          <e p="BitcoinSerializableJsonConverter.cs" t="Include" />
+          <e p="BitcoinStringJsonConverter.cs" t="Include" />
+          <e p="CoinJsonConverter.cs" t="Include" />
+          <e p="DateTimeToUnixTimeConverter.cs" t="Include" />
+          <e p="FeeRateJsonConverter.cs" t="Include" />
+          <e p="HexJsonConverter.cs" t="Include" />
+          <e p="JsonObjectException.cs" t="Include" />
+          <e p="KeyJsonConverter.cs" t="Include" />
+          <e p="KeyPathJsonConverter.cs" t="Include" />
+          <e p="LockTimeJsonConverter.cs" t="Include" />
+          <e p="MoneyJsonConverter.cs" t="Include" />
+          <e p="NetworkJsonConverter.cs" t="Include" />
+          <e p="ScriptJsonConverter.cs" t="Include" />
+          <e p="Serializer.cs" t="Include" />
+          <e p="SignatureJsonConverter.cs" t="Include" />
+          <e p="TxDestinationJsonConverter.cs" t="Include" />
+          <e p="UIntJsonConverter.cs" t="Include" />
+        </e>
+        <e p="Key.cs" t="Include" />
+        <e p="KeyId.cs" t="Include" />
+        <e p="LockTime.cs" t="Include" />
+        <e p="MedianFilter.cs" t="Include" />
+        <e p="MemPoolInfo.cs" t="Include" />
+        <e p="MerkleBlock.cs" t="Include" />
+        <e p="MerkleNode.cs" t="Include" />
+        <e p="Money.cs" t="Include" />
+        <e p="NBitcoin.csproj" t="IncludeRecursive" />
+        <e p="Network.cs" t="Include" />
+        <e p="NetworkBuilder.cs" t="Include" />
+        <e p="NetworkSet.cs" t="Include" />
+        <e p="NetworkStringParser.cs" t="Include" />
+        <e p="NoSqlBlockRepository.cs" t="Include" />
+        <e p="NoSqlRepository.cs" t="Include" />
+        <e p="NoSqlTransactionRepository.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="NBitcoin.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="OpenAsset" t="Include">
+          <e p="AssetId.cs" t="Include" />
+          <e p="AssetMoney.cs" t="Include" />
+          <e p="BitcoinAssetId.cs" t="Include" />
+          <e p="BitcoinColoredAddress.cs" t="Include" />
+          <e p="CachedColoredTransactionRepository.cs" t="Include" />
+          <e p="ColoredTransaction.cs" t="Include" />
+          <e p="ColorMarker.cs" t="Include" />
+          <e p="Extensions.cs" t="Include" />
+          <e p="IColoredTransactionRepository.cs" t="Include" />
+          <e p="NoDuplicateColoredTransactionRepository.cs" t="Include" />
+          <e p="NoSqlColoredTransactionRepository.cs" t="Include" />
+          <e p="NullColoredTransactionRepository.cs" t="Include" />
+        </e>
+        <e p="packages.config" t="Include" />
+        <e p="PartialMerkleTree.cs" t="Include" />
+        <e p="Payment" t="Include">
+          <e p="BitcoinUrlBuilder.cs" t="Include" />
+          <e p="HttpEncoder.cs" t="Include" />
+          <e p="HttpUtility.cs" t="Include" />
+          <e p="ICertificateServiceProvider.cs" t="Include" />
+          <e p="IChainChecker.cs" t="Include" />
+          <e p="ISignatureChecker.cs" t="Include" />
+          <e p="ISigner.cs" t="Include" />
+          <e p="PaymentACK.cs" t="Include" />
+          <e p="PaymentRequest.cs" t="Include" />
+          <e p="UriHelper.cs" t="Include" />
+          <e p="WindowsCertificateServiceProvider.cs" t="Include" />
+        </e>
+        <e p="Policy" t="Include">
+          <e p="ITransactionPolicy.cs" t="Include" />
+          <e p="MinerTransactionPolicy.cs" t="Include" />
+          <e p="StandardTransactionPolicy.cs" t="Include" />
+        </e>
+        <e p="PrecomputedTransactionData.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Protobuf" t="Include">
+          <e p="ProtobufReaderWriter.cs" t="Include" />
+        </e>
+        <e p="Protocol" t="Include">
+          <e p="AddressManager.cs" t="Include" />
+          <e p="Behaviors" t="Include">
+            <e p="AddressManagerBehavior.cs" t="Include" />
+            <e p="BroadcastTransactionBehavior.cs" t="Include" />
+            <e p="ChainBehavior.cs" t="Include" />
+            <e p="NodeBehavior.cs" t="Include" />
+            <e p="NodeBehaviorsCollection.cs" t="Include" />
+            <e p="NodesGroupBehavior.cs" t="Include" />
+            <e p="PingPongBehavior.cs" t="Include" />
+            <e p="SlimChainBehavior.cs" t="Include" />
+          </e>
+          <e p="BitcoinSerializablePayload.cs" t="Include" />
+          <e p="Filters" t="Include">
+            <e p="ActionFilter.cs" t="Include" />
+            <e p="NodeFilter.cs" t="Include" />
+            <e p="NodeFiltersCollection.cs" t="Include" />
+          </e>
+          <e p="IMessageProducer.cs" t="Include" />
+          <e p="IncomingMessage.cs" t="Include" />
+          <e p="InventoryVector.cs" t="Include" />
+          <e p="Message.cs" t="Include" />
+          <e p="MessageListener.cs" t="Include" />
+          <e p="NetworkAddress.cs" t="Include" />
+          <e p="Node.cs" t="Include" />
+          <e p="NodeConnectionParameters.cs" t="Include" />
+          <e p="NodeListener.cs" t="Include" />
+          <e p="NodesCollection.cs" t="Include" />
+          <e p="NodeServer.cs" t="Include" />
+          <e p="NodeServerTrace.cs" t="Include" />
+          <e p="NodesGroup.cs" t="Include" />
+          <e p="Payload.cs" t="Include" />
+          <e p="PayloadAttribute.cs" t="Include" />
+          <e p="Payloads" t="Include">
+            <e p="AddrPayload.cs" t="Include" />
+            <e p="BlockPayload.cs" t="Include" />
+            <e p="BlockTxnPayload.cs" t="Include" />
+            <e p="CmpctBlockPayload.cs" t="Include" />
+            <e p="FilterAddPayload.cs" t="Include" />
+            <e p="FilterLoadPayload.cs" t="Include" />
+            <e p="GetAddrPayload.cs" t="Include" />
+            <e p="GetBlocksPayload.cs" t="Include" />
+            <e p="GetBlockTxnPayload.cs" t="Include" />
+            <e p="GetDataPayload.cs" t="Include" />
+            <e p="GetHeadersPayload.cs" t="Include" />
+            <e p="HaveWitnessPayload.cs" t="Include" />
+            <e p="HeadersPayload.cs" t="Include" />
+            <e p="InvPayload.cs" t="Include" />
+            <e p="MempoolPayload.cs" t="Include" />
+            <e p="MerkleBlockPayload.cs" t="Include" />
+            <e p="NotFoundPayload.cs" t="Include" />
+            <e p="PingPayload.cs" t="Include" />
+            <e p="PongPayload.cs" t="Include" />
+            <e p="RejectPayload.cs" t="Include" />
+            <e p="SendCmpctPayload.cs" t="Include" />
+            <e p="SendHeadersPayload.cs" t="Include" />
+            <e p="TxPayload.cs" t="Include" />
+            <e p="UTxOutputPayload.cs" t="Include" />
+            <e p="VerAckPayload.cs" t="Include" />
+            <e p="VersionPayload.cs" t="Include" />
+          </e>
+          <e p="PerformanceCounter.cs" t="Include" />
+          <e p="ProtocolException.cs" t="Include" />
+          <e p="UnknowPayload.cs" t="Include" />
+          <e p="VarInt.cs" t="Include" />
+          <e p="VarString.cs" t="Include" />
+          <e p="Versions.cs" t="Include" />
+        </e>
+        <e p="PubKey.cs" t="Include" />
+        <e p="PushNuget.ps1" t="Include" />
+        <e p="QBitNinjaTransactionRepository.cs" t="Include" />
+        <e p="RandomUtils.cs" t="Include" />
+        <e p="RandomUtils.partial.cs" t="Include" />
+        <e p="RPC" t="Include">
+          <e p="BlockExplorerFormatter.cs" t="Include" />
+          <e p="EstimateSmartFeeMode.cs" t="Include" />
+          <e p="EstimateSmartFeeResponse.cs" t="Include" />
+          <e p="FundRawTransactionOptions.cs" t="Include" />
+          <e p="FundRawTransactionResponse.cs" t="Include" />
+          <e p="GetNewAddressRequest.cs" t="Include" />
+          <e p="GetTxOutResponse.cs" t="Include" />
+          <e p="ImportMultiAddress.cs" t="Include" />
+          <e p="RawFormatter.cs" t="Include" />
+          <e p="RestClient.cs" t="Include" />
+          <e p="RPCClient.cs" t="Include" />
+          <e p="RPCClient.Wallet.cs" t="Include" />
+          <e p="RPCCredentialString.cs" t="Include" />
+          <e p="RPCException.cs" t="Include" />
+          <e p="RPCOperations.cs" t="Include" />
+          <e p="RPCRequest.cs" t="Include" />
+          <e p="RPCResponse.cs" t="Include" />
+          <e p="SatoshiFormatter.cs" t="Include" />
+          <e p="UnspentCoin.cs" t="Include" />
+        </e>
+        <e p="RPCTransactionRepository.cs" t="Include" />
+        <e p="Script.cs" t="Include" />
+        <e p="ScriptEvaluationContext.cs" t="Include" />
+        <e p="ScriptReader.cs" t="Include" />
+        <e p="Sequence.cs" t="Include" />
+        <e p="SequenceLock.cs" t="Include" />
+        <e p="SlimChain.cs" t="Include" />
+        <e p="SPV" t="Include">
+          <e p="Tracker.cs" t="Include" />
+          <e p="TrackerBehavior.cs" t="Include" />
+          <e p="Wallet.cs" t="Include" />
+          <e p="WalletSummary.cs" t="Include" />
+          <e p="WalletTransaction.cs" t="Include" />
+          <e p="WalletTransactionsCollection.cs" t="Include" />
+        </e>
+        <e p="StandardScripts.cs" t="Include" />
+        <e p="StandardScriptTemplate.cs" t="Include" />
+        <e p="Stealth" t="Include">
+          <e p="BitcoinStealthAddress.cs" t="Include" />
+          <e p="StealthMetadata.cs" t="Include" />
+          <e p="StealthPayment.cs" t="Include" />
+        </e>
+        <e p="Target.cs" t="Include" />
+        <e p="TraceCorrelationScope.cs" t="Include" />
+        <e p="Transaction.cs" t="Include" />
+        <e p="TransactionBuilder.cs" t="Include" />
+        <e p="TransactionNotFoundException.cs" t="Include" />
+        <e p="TransactionSignature.cs" t="Include" />
+        <e p="UInt256.tt" t="Include" />
+        <e p="UInt2561.cs" t="Include" />
+        <e p="UnsignedList.cs" t="Include" />
+        <e p="Utils" t="Include">
+          <e p="ActionDisposable.cs" t="Include" />
+          <e p="BoundedDictionary.cs" t="Include" />
+          <e p="ThreadSafeCollection.cs" t="Include" />
+        </e>
+        <e p="Utils.cs" t="Include" />
+      </e>
+      <e p="NBitcoin.Altcoins" t="IncludeRecursive">
+        <e p="AltcoinNetworkSets.cs" t="Include" />
+        <e p="BCash.cs" t="Include" />
+        <e p="BGold.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bitcore.cs" t="Include" />
+        <e p="Dash.cs" t="Include" />
+        <e p="Dogecoin.cs" t="Include" />
+        <e p="Feathercoin.cs" t="Include" />
+        <e p="ForkIdTransaction.cs" t="Include" />
+        <e p="GoByte.cs" t="Include" />
+        <e p="Groestlcoin.cs" t="Include" />
+        <e p="Groestlcoin.Internals" t="Include">
+          <e p="Digest.cs" t="Include" />
+          <e p="DigestEngine.cs" t="Include" />
+          <e p="Groestl512.cs" t="Include" />
+          <e p="GroestlBigCore.cs" t="Include" />
+          <e p="GroestlSmallCore.cs" t="Include" />
+        </e>
+        <e p="HashX11" t="Include">
+          <e p="crypto" t="Include">
+            <e p="SHA3" t="Include">
+              <e p="Blake.cs" t="Include" />
+              <e p="BlueMidnightWish.cs" t="Include" />
+              <e p="CubeHash.cs" t="Include" />
+              <e p="Echo.cs" t="Include" />
+              <e p="Fugue.cs" t="Include" />
+              <e p="Groestl.cs" t="Include" />
+              <e p="Hamsi.cs" t="Include" />
+              <e p="JH.cs" t="Include" />
+              <e p="Keccak.cs" t="Include" />
+              <e p="Luffa.cs" t="Include" />
+              <e p="Shabal.cs" t="Include" />
+              <e p="SHAvite3.cs" t="Include" />
+              <e p="SHAvite3Custom.cs" t="Include" />
+              <e p="SIMD.cs" t="Include" />
+              <e p="Skein.cs" t="Include" />
+              <e p="SkeinCustom.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Extensions" t="Include">
+            <e p="ArrayExtensions.cs" t="Include" />
+            <e p="Converters.cs" t="Include" />
+          </e>
+          <e p="Hash.cs" t="Include" />
+          <e p="HashBuffer.cs" t="Include" />
+          <e p="HashCryptoNotBuildIn.cs" t="Include" />
+          <e p="HashFactory.cs" t="Include" />
+          <e p="HashResult.cs" t="Include" />
+          <e p="HashSize.cs" t="Include" />
+          <e p="IHash.cs" t="Include" />
+          <e p="IHashInfo.cs" t="Include" />
+          <e p="X11.cs" t="Include" />
+        </e>
+        <e p="Litecoin.cs" t="Include" />
+        <e p="Mogwai.cs" t="Include" />
+        <e p="Monacoin.cs" t="Include" />
+        <e p="NBitcoin.Altcoins.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="NBitcoin.Altcoins.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Polis.cs" t="Include" />
+        <e p="PushNuget.ps1" t="Include" />
+        <e p="README.md" t="Include" />
+        <e p="Ufo.cs" t="Include" />
+        <e p="Viacoin.cs" t="Include" />
+      </e>
+      <e p="NBitcoin.sln" t="IncludeFlat" />
+      <e p="NBitcoin.TestFramework" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="NBitcoin.TestFramework.csproj" t="IncludeRecursive" />
+        <e p="NodeBuilder.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="NBitcoin.TestFramework.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="PushNuget.ps1" t="Include" />
+        <e p="README.md" t="Include" />
+        <e p="WellknownNodeDownloadData.cs" t="Include" />
+      </e>
+      <e p="NBitcoin.Tests" t="IncludeRecursive">
+        <e p="addrman_tests.cs" t="Include" />
+        <e p="AltcoinTests.cs" t="Include" />
+        <e p="App.config" t="Include" />
+        <e p="AssertEx.cs" t="Include" />
+        <e p="AssetMoneyTests.cs" t="Include" />
+        <e p="base58_tests.cs" t="Include" />
+        <e p="Bech32Test.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Bip158_tests.cs" t="Include" />
+        <e p="bip32_tests.cs" t="Include" />
+        <e p="BIP38Tests.cs" t="Include" />
+        <e p="bip39_tests.cs" t="Include" />
+        <e p="BitcoinAddressTest.cs" t="Include" />
+        <e p="bloom_tests.cs" t="Include" />
+        <e p="ChainTests.cs" t="Include" />
+        <e p="checkblock_tests.cs" t="Include" />
+        <e p="cmpctblock_tests.cs" t="Include" />
+        <e p="ColoredCoinsTests.cs" t="Include" />
+        <e p="ConverterTests.cs" t="Include" />
+        <e p="data" t="Include">
+          <e p=".cookie" t="Include" />
+          <e p="base58_keys_invalid.json" t="Include" />
+          <e p="base58_keys_valid.json" t="Include" />
+          <e p="base58_keys_valid2.json" t="Include" />
+          <e p="bip158_vectors.json" t="Include" />
+          <e p="bip39_JP.json" t="Include" />
+          <e p="bip39_vectors.en.json" t="Include" />
+          <e p="bip39_vectors.es.json" t="Include" />
+          <e p="bip39_vectors.fr.json" t="Include" />
+          <e p="bip39_vectors.ja.json" t="Include" />
+          <e p="bip39_vectors.json" t="Include" />
+          <e p="bip39_vectors.zh-CN.json" t="Include" />
+          <e p="bip39_vectors.zh-TW.json" t="Include" />
+          <e p="block-testnet-828575.txt" t="Include" />
+          <e p="block169482.txt" t="Include" />
+          <e p="blocks" t="Include">
+            <e p="blk00000.dat" t="Include" />
+            <e p="blk00001.dat" t="Include" />
+            <e p="Block1.json" t="Include" />
+            <e p="incompleteblk.dat" t="Include" />
+            <e p="incompleteblk.dat.bak" t="Include" />
+            <e p="rev00000.dat" t="Include" />
+          </e>
+          <e p="can_parse_transaction.json" t="Include" />
+          <e p="determiniticECDSA.txt" t="Include" />
+          <e p="NicolasDorierCA.pfx" t="Include" />
+          <e p="NicolasDorierMerchant.pfx" t="Include" />
+          <e p="openasset-known-tx.json" t="Include" />
+          <e p="paymentack.data" t="Include" />
+          <e p="payreq.dat" t="Include" />
+          <e p="payreq1_sha1.paymentrequest" t="Include" />
+          <e p="payreq1_sha1_omitteddefault.paymentrequest" t="Include" />
+          <e p="payreq1_sha256.paymentrequest" t="Include" />
+          <e p="payreq1_sha256_omitteddefault.paymentrequest" t="Include" />
+          <e p="payreq2_sha1.paymentrequest" t="Include" />
+          <e p="payreq2_sha1_omitteddefault.paymentrequest" t="Include" />
+          <e p="payreq2_sha256.paymentrequest" t="Include" />
+          <e p="payreq2_sha256_omitteddefault.paymentrequest" t="Include" />
+          <e p="payreq3_validchain.paymentrequest" t="Include" />
+          <e p="peers.dat" t="Include" />
+          <e p="README.md" t="Include" />
+          <e p="script_tests.json" t="Include" />
+          <e p="SHA256SUMS.asc" t="Include" />
+          <e p="sig_canonical.json" t="Include" />
+          <e p="sig_noncanonical.json" t="Include" />
+          <e p="sighash.json" t="Include" />
+          <e p="targethistory.csv" t="Include" />
+          <e p="tx_invalid.json" t="Include" />
+          <e p="tx_raw.json" t="Include" />
+          <e p="tx_valid.json" t="Include" />
+        </e>
+        <e p="DeterministicSignatureTests.cs" t="Include" />
+        <e p="hash_tests.cs" t="Include" />
+        <e p="JsonConverterTests.cs" t="Include" />
+        <e p="key_tests.cs" t="Include" />
+        <e p="NBitcoin.Tests.csproj" t="IncludeRecursive" />
+        <e p="NetworkTests.cs" t="Include" />
+        <e p="NodeBuilderEx.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="NBitcoin.Tests.AssemblyInfo.cs" t="Include" />
+              <e p="NBitcoin.Tests.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="packages.config" t="Include" />
+        <e p="PaymentTests.cs" t="Include" />
+        <e p="pow_tests.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="ProtocolTests.cs" t="Include" />
+        <e p="README.txt" t="Include" />
+        <e p="RepositoryTests.cs" t="Include" />
+        <e p="RestClientTests.cs" t="Include" />
+        <e p="RPCClientTests.cs" t="Include" />
+        <e p="sample_tests.cs" t="Include" />
+        <e p="SchnorrSignerTests.cs" t="Include" />
+        <e p="script_tests.cs" t="Include" />
+        <e p="sighash_tests.cs" t="Include" />
+        <e p="sigopcount_tests.cs" t="Include" />
+        <e p="StealthAddressTests.cs" t="Include" />
+        <e p="TestCase.cs" t="Include" />
+        <e p="TestUtils.cs" t="Include" />
+        <e p="transaction_tests.cs" t="Include" />
+        <e p="uint256_tests.cs" t="Include" />
+        <e p="util_tests.cs" t="Include" />
+        <e p="WebClient.cs" t="Include" />
+        <e p="xunit.runner.json" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Stubs/TraceStub/TraceSource.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_NBitcoin.1036901728.00" t="ExcludeRecursive" />
+  </component>
+</project>
