@@ -103,7 +103,7 @@ namespace NBitcoin.Altcoins
 				PowTargetTimespan = TimeSpan.FromSeconds( 60 * 60),
 				PowTargetSpacing = TimeSpan.FromSeconds(2.5 * 60),
 				PowAllowMinDifficultyBlocks = true,
-				CoinbaseMaturity = 15, // this does not exist on GBX
+				CoinbaseMaturity = 100,
 				PowNoRetargeting = false,
 				RuleChangeActivationThreshold = 1916, // 95% of 2016
 				MinerConfirmationWindow = 2016,
@@ -156,7 +156,7 @@ namespace NBitcoin.Altcoins
 				PowTargetTimespan = TimeSpan.FromSeconds(60 * 60),
 				PowTargetSpacing = TimeSpan.FromSeconds(2.5 * 60),
 				PowAllowMinDifficultyBlocks = true,
-				CoinbaseMaturity = 30, // nope
+				CoinbaseMaturity = 100,
 				PowNoRetargeting = false,
 				RuleChangeActivationThreshold = 1512, 
 				MinerConfirmationWindow = 2016, 
@@ -201,7 +201,7 @@ namespace NBitcoin.Altcoins
 				PowTargetTimespan = TimeSpan.FromSeconds(24 * 60 * 60),
 				PowTargetSpacing = TimeSpan.FromSeconds(2.5 * 60),
 				PowAllowMinDifficultyBlocks = true,
-				CoinbaseMaturity = 30,
+				CoinbaseMaturity = 100,
 				PowNoRetargeting = true,
 				RuleChangeActivationThreshold = 108,
 				MinerConfirmationWindow = 144,
